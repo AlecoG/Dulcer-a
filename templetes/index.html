@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enredito´s</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+        /* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo {
+  margin-bottom: 10px;
+}
+
+.logo h1 {
+  font-size: 2.5rem;
+}
+
+.logo p {
+  font-size: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.icons i {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+/* Hero Styles */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+  background-color: #fff;
+}
+
+.content {
+  margin-bottom: 20px;
+}
+
+.content h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #222;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #333;
+}
+
+.image {
+  margin-left: 20px;
+}
+
+.image img {
+  max-width: 1000px;
+}
+
+/* Features Styles */
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.feature {
+  width: 250px;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.feature p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+
+
+</style>
+
+
+
+</head>
+
+
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Enredito`s</h1>
+                <p>2024 HABANA</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">TEMPORADA</a></li>
+                    <li><a href="#">PASTELERÍA</a></li>
+                    <li><a href="#">DESAYUNOS</a></li>
+                    <li><a href="#">SALADOS</a></li>
+                    <li><a href="#">BOMBONERÍA</a></li>
+                    <li><a href="#">ESPECIALIDADES</a></li>
+                    <li><a href="#">CATERING</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <a href="#"><i class="fas fa-user"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i><span>0</span></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="content">
+                <h2>Descubre nuestro lado más salado</h2>
+                <p>Haz tu pedido y te lo enviamos a casa (solo algunas zonas de La Habana) o recógelo en una de nuestras tiendas.</p>
+                <a href="#" class="btn">NUESTROS PRODUCTOS</a>
+            </div>
+            <div class="image">
+               
+               <img src="images/init.jpg" alt="Sandwich" width="1000" height="750" c>
+              <!--<img src="images/init.jpg" alt="Sandwich">-->
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="feature">
+                <i class="fas fa-clock"></i>
+                <h3>Enfoca en calidad</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quam!</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-shopping-bag"></i>
+                <h3>Productos de calidad</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quam!</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-store"></i>
+                <h3>Siempre abierto</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quam!</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-heart"></i>
+                <h3>Amor en cada bocado</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quam!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Enredito`s. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit-id.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
